@@ -21,6 +21,9 @@ namespace Builders
             {
                 return new readers.MyXmlReader();
             }
+            //else if (fileExtension == AnyOtherType)
+            //  return new AnyOtherTypeReader();
+            
             return null;
         }
     }
