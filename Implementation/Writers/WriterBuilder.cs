@@ -18,6 +18,8 @@ namespace writers
             {
                 return new XmlWriter();
             }
+            //else if (fileExtension == AnyOtherType)
+            //  return new AnyOtherTypeWriter();
             return null;
         }
     }
