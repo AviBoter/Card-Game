@@ -8,7 +8,7 @@ to card game API i was provided.
 Although i cant upload the API for an obvious reasons, i uploaded my implemetation.
 
 I used Builder design pattren to allow loading game assets from any type of text file source (Json,Xml etc.).
-Also,Consts varbales (String etc.) to minimaize space complexity 
+Also,Consts variables (String etc.) to minimaize space complexity 
 And free card assets to design the Board and cards.
 
 enjoy (:
