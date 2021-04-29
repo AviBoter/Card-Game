@@ -6,12 +6,12 @@ using Database.API.Card.Extra;
 using UnityEditor;
 using System.Runtime.Serialization;
 
-//due to CardData fields (getters/seeters) being private and i was denied modifying/changing the API and coudn't use data contract
+//due to CardData fields (getters/seeters) being private and i was denied modifying/changing the API and coudn't use sirealize/desirealize/data contract
 //nor transfer it by byte etc. i implemented manual xml writer.
 
 public class XmlWriter : IFileWriter
 {
-    public void WriteToFile(string path, CardData[] Cards)
+    public void WriteToFile(string path, CardData[] Cards 
     {
 
         var ser = new DataContractSerializer(typeof(CardData));
