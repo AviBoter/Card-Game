@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 
-//due to CardData fields (getters/seeters) being private and i was denied modifying/changing the API and coudn't use data contract
+//due to CardData fields (getters/seeters) being private and i was denied modifying/changing the API and coudn't use sirealize/desirealize/data contract
 //nor transfer it by byte etc. i implemented manual xml reader.
 
 namespace readers
