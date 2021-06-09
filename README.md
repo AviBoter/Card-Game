@@ -15,6 +15,7 @@ Main obsacles:
 1) the api provided with missing dll files and bad configuration.
 2) Not allowing to use Sirealization due to privte filed (Not changable). 
    there for i was needed to import/export object to json\xml etc. manually.
+3) 7 days to submit it, in addition to university class and assignments.
    
 enjoy (:
 
