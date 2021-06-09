@@ -1,4 +1,4 @@
-#UNITY #C-Sharp #Card-Game
+#UNITY #C-Sharp #Card-Game #Scriptable Objects
 
 An implementation of a card game.
 
